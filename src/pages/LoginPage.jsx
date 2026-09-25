@@ -24,7 +24,7 @@ function LoginPage() {
     event.preventDefault();
     setError('');
 
-    if (username === 'admin' && password === 'admin') {
+    if (username === 'ocei' && password === '1review!') {
       localStorage.setItem('ocei_authenticated', 'true');
       navigate('/dashboard');
       return;
@@ -161,10 +161,7 @@ function LoginPage() {
             </button>
           </form>
 
-          <div className="login-demo-credentials">
-            <span>Demo credentials</span>
-            <strong>admin / admin</strong>
-          </div>
+          
 
           <p className="login-security-message">
             Protected access to the O-CEI monitoring environment.

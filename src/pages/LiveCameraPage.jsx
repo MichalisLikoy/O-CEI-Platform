@@ -20,15 +20,9 @@ import {
 
 import CameraStream from '../components/liveCamera/CameraStream';
 
-// DEMO MODE.      ΕΠΑΝΑΦΕΡΩ ΜΕΤΑ ΤΗΝ ΕΠΙΔΕΙΞΗ
-// Real detections service temporarily disabled.
-//
-// import {
-//   getDetections,
-// 
-//import {
-//  getDetections,
-//} from '../services/detectionsService';
+import {
+  getDetections,
+} from '../services/detectionsService';
 
 /*
 |--------------------------------------------------------------------------
@@ -41,109 +35,16 @@ const CAMERAS = {
     id: 'camera-01',
     name: 'Malta Freeport Camera 01',
     hlsUrl:
-      'https://agents.sammyacht.com/mobotix/index.m3u8',
+     'https://agents.sammyacht.com/mobotix/index.m3u8',
   },
-  /*
-    'camera-02': {
-      id: 'camera-02',
-      name: 'Malta Freeport Camera 02',
-      hlsUrl: '',
-    },
-    */
-};
-
-
-
-
-
-
-
-
-
 /*
-|--------------------------------------------------------------------------
-| Demo detections. ΣΒΗΝΩ ΜΕΤΑ ΤΗΝ ΕΠΙΔΕΙΞΗ
-|--------------------------------------------------------------------------
-|
-| Temporary presentation data.
-| Live camera stream remains active.
-|
-*/
-
-const DEMO_DETECTIONS = [
-  {
-    id: 'demo-pilot-8',
-    vessel_class: 'Other',
-    confidence: 0.951,
-    crop_image_url: '/demo-detections/other2.png',
-    detected_at: '2026-09-21T09:18:42',
-    method: 'classification',
-    direction: 'Not available',
+  'camera-02': {
+    id: 'camera-02',
+    name: 'Malta Freeport Camera 02',
+    hlsUrl: '',
   },
-  {
-    id: 'demo-pilot-7',
-    vessel_class: 'Other',
-    confidence: 0.762,
-    crop_image_url: '/demo-detections/other1.png',
-    detected_at: '2026-09-19T13:13:12',
-    method: 'classification',
-    direction: 'Not available',
-  },
-  {
-    id: 'demo-pilot-6',
-    vessel_class: 'Other',
-    confidence: 0.760,
-    crop_image_url: '/demo-detections/other1.png',
-    detected_at: '2026-09-19T13:13:08',
-    method: 'classification',
-    direction: 'Not available',
-  },
-  {
-    id: 'demo-pilot-5',
-    vessel_class: 'Port Service Vessel',
-    confidence: 0.904,
-    crop_image_url: '/demo-detections/pilot5.png',
-    detected_at: '2026-09-15T15:20:16',
-    method: 'classification',
-    direction: 'Not available',
-  },
-  {
-    id: 'demo-pilot-4',
-    vessel_class: 'Port Service Vessel',
-    confidence: 0.967,
-    crop_image_url: '/demo-detections/pilot4.png',
-    detected_at: '2026-09-15T15:18:58',
-    method: 'classification',
-    direction: 'Not available',
-  },
-  {
-    id: 'demo-pilot-3',
-    vessel_class: 'Port Service Vessel',
-    confidence: 0.962,
-    crop_image_url: '/demo-detections/pilot3.png',
-    detected_at: '2026-09-15T15:18:49',
-    method: 'classification',
-    direction: 'Not available',
-  },
-  {
-    id: 'demo-pilot-2',
-    vessel_class: 'Port Service Vessel',
-    confidence: 0.916,
-    crop_image_url: '/demo-detections/pilot2.png',
-    detected_at: '2026-09-15T15:17:03',
-    method: 'classification',
-    direction: 'Not available',
-  },
-  {
-    id: 'demo-pilot-1',
-    vessel_class: 'Port Service Vessel',
-    confidence: 0.918,
-    crop_image_url: '/demo-detections/pilot1.png',
-    detected_at: '2026-09-15T15:16:17',
-    method: 'classification',
-    direction: 'Not available',
-  },
-];
+  */
+};
 
 
 /*
@@ -255,9 +156,9 @@ function LiveCameraPage() {
 
   /*
   |--------------------------------------------------------------------------
-  | Detection state.  ΕΠΑΝΑΦΕΡΩ ΜΕΤΑ ΤΗΝ ΕΠΙΔΕΙΞΗ
+  | Detection state
   |--------------------------------------------------------------------------
-  
+  */
 
   const [
     detections,
@@ -273,24 +174,7 @@ function LiveCameraPage() {
     detectionsError,
     setDetectionsError,
   ] = useState(null);
-*/
-// ΣΒΗΝΩ ΜΕΤΑ ΤΗΝ ΕΠΙΔΕΙΞΗ
-  const [
-    detections,
-    setDetections,
-  ] = useState(DEMO_DETECTIONS);
 
-  const [
-    detectionsLoading,
-    setDetectionsLoading,
-  ] = useState(false);
-
-  const [
-    detectionsError,
-    setDetectionsError,
-  ] = useState(null);
-
-  /////////////////////////////////////////////
 
   const activeCamera =
     CAMERAS[selectedCamera];
@@ -306,9 +190,9 @@ function LiveCameraPage() {
 
   /*
   |--------------------------------------------------------------------------
-  | Load detections ΕΠΑΝΑΦΕΡΩ ΜΕΤΑ ΤΗΝ ΕΠΙΔΕΙΞΗ
+  | Load detections
   |--------------------------------------------------------------------------
-  
+  */
 
   const loadDetections =
     useCallback(async () => {
@@ -500,12 +384,8 @@ function LiveCameraPage() {
       (currentKey) =>
         currentKey + 1,
     );
-    // ΕΠΑΝΑΦΕΡΩ ΜΕΤΑ ΤΗΝ ΕΠΙΔΕΙΞΗ
-   // loadDetections();
 
-   
-  // ΣΒΗΝΩ ΜΕΤΑ ΤΗΝ ΕΠΙΔΕΙΞΗ
-  setDetections(DEMO_DETECTIONS);
+    loadDetections();
   }
 
 
@@ -600,7 +480,7 @@ function LiveCameraPage() {
             <strong
               className={
                 streamIsHealthy &&
-                  isPlaying
+                isPlaying
                   ? 'camera-summary-live'
                   : ''
               }
@@ -745,14 +625,14 @@ function LiveCameraPage() {
 
             {selectedCamera ===
               'camera-01' && (
-                <div className="camera-fixed-roi">
+              <div className="camera-fixed-roi">
 
-                  <span>
-                    Classification ROI
-                  </span>
+                <span>
+                  Classification ROI
+                </span>
 
-                </div>
-              )}
+              </div>
+            )}
 
 
             {/* LIVE badge */}
@@ -763,7 +643,7 @@ function LiveCameraPage() {
               {streamStatus === 'error'
                 ? 'OFFLINE'
                 : streamStatus ===
-                  'connecting'
+                    'connecting'
                   ? 'CONNECTING'
                   : isPlaying
                     ? 'LIVE'
@@ -1142,7 +1022,7 @@ function LiveCameraPage() {
 
                       <CircleDot size={13} />
 
-                      {formatDateTime(
+                      {formatTime(
                         detection
                           .detected_at,
                       )}
