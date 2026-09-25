@@ -46,11 +46,11 @@ Users can select a future date range and generate an energy demand forecast base
 
 The platform also allows operators to enter the **real energy consumption** associated with completed observations. These real measurements can be used as additional training data, allowing the forecasting model to improve as more operational data becomes available.
 
-### V-Detect / Live Camera
+### Live Camera
 
-The **Live Camera** section integrates the V-Detect vessel detection component.
+The **Live Camera** section integrates the vessel classification component.
 
-V-Detect processes camera imagery using a YOLO-based computer vision pipeline to detect vessels within the monitored port area.
+This section processes camera imagery using a YOLO-based computer vision pipeline to detect vessels within the monitored port area.
 
 The detection process can identify vessels in camera frames and provide visual information that complements the vessel and port-call monitoring functionality of the platform.
 
@@ -60,7 +60,7 @@ The main workflow of the O-CEI Platform can be summarized as:
 
 **Vessel Activity → Port Call Monitoring → Energy Consumption Estimation → CO₂ Estimation → Energy Demand Forecasting**
 
-Camera-based vessel detection through **V-Detect** provides an additional source of information for monitoring activity within the port.
+Camera-based vessel classification through **Live Camera** provides an additional source of information for monitoring activity within the port.
 
 ## Technologies
 
@@ -86,4 +86,4 @@ Additional technical documentation for individual components can be provided sep
 
 ## License
 
-Please refer to the repository license for information regarding the permitted use and distribution of the O-CEI Platform and its components.
+The O-CEI Platform was developed as part of the O-CEI project. Licensing information for the platform and its individual components is provided separately where applicable.
