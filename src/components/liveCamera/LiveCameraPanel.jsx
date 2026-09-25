@@ -19,7 +19,7 @@ import { useNavigate } from 'react-router-dom';
 import CameraStream from './CameraStream';
 
 const CAMERA_HLS_URL =
-  'http://agents.sammyacht.com:8888/mobotix/index.m3u8';
+  'https://agents.sammyacht.com/mobotix/index.m3u8';
 
 function formatTime(date) {
   return new Intl.DateTimeFormat('en-GB', {

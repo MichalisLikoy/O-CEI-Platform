@@ -41,7 +41,7 @@ const CAMERAS = {
     id: 'camera-01',
     name: 'Malta Freeport Camera 01',
     hlsUrl:
-      'http://agents.sammyacht.com:8888/mobotix/index.m3u8',
+      'https://agents.sammyacht.com/mobotix/index.m3u8',
   },
   /*
     'camera-02': {
