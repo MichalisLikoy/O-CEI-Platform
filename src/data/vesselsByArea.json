@@ -1,0 +1,324 @@
+{
+    "vessels": [
+        {
+            "mmsi": "636019562",
+            "name": "CONTSHIP ACE",
+            "latitude": "35.820107",
+            "longitude": "14.540095",
+            "speed": "0",
+            "course": "244",
+            "heading": "135",
+            "typeSpecific": "Container Ship"
+        },
+        {
+            "mmsi": "256000697",
+            "name": "MELITA 8",
+            "latitude": "35.831566",
+            "longitude": "14.548433",
+            "speed": "1",
+            "course": null,
+            "heading": "0",
+            "typeSpecific": "Other type"
+        },
+        {
+            "mmsi": "211124570",
+            "name": "CATMAN CATAMARAN",
+            "latitude": "35.827385",
+            "longitude": "14.53511",
+            "speed": "0",
+            "course": "278",
+            "heading": "278",
+            "typeSpecific": "Sailing vessel"
+        },
+        {
+            "mmsi": "211606130",
+            "name": "LADY ROVER CATAMARAN",
+            "latitude": "35.829853",
+            "longitude": "14.540145",
+            "speed": "0",
+            "course": "0",
+            "heading": "0",
+            "typeSpecific": "Sailing vessel"
+        },
+        {
+            "mmsi": "371577000",
+            "name": "FAHRIYE K",
+            "latitude": "35.816185",
+            "longitude": "14.544434",
+            "speed": "0",
+            "course": "149",
+            "heading": "227",
+            "typeSpecific": "General Cargo Ship"
+        },
+        {
+            "mmsi": "229842000",
+            "name": "CMA CGM BARRACUDA",
+            "latitude": "35.817825",
+            "longitude": "14.539632",
+            "speed": "0",
+            "course": "296",
+            "heading": "128",
+            "typeSpecific": "Container Ship"
+        },
+        {
+            "mmsi": "249677000",
+            "name": "VANNA",
+            "latitude": "35.832329",
+            "longitude": "14.554229",
+            "speed": "0",
+            "course": "257",
+            "heading": "324",
+            "typeSpecific": "Oil Products Tanker"
+        },
+        {
+            "mmsi": "249677000",
+            "name": "VANNA",
+            "latitude": "35.832329",
+            "longitude": "14.554229",
+            "speed": "0",
+            "course": "257",
+            "heading": "324",
+            "typeSpecific": "Oil Products Tanker"
+        },
+        {
+            "mmsi": "256051000",
+            "name": "PAWLINA",
+            "latitude": "35.816395",
+            "longitude": "14.542499",
+            "speed": "0",
+            "course": "226",
+            "heading": "226",
+            "typeSpecific": "Tug"
+        },
+        {
+            "mmsi": "256268000",
+            "name": "PAULUS",
+            "latitude": "35.817173",
+            "longitude": "14.552315",
+            "speed": "34",
+            "course": "144",
+            "heading": "135",
+            "typeSpecific": "Motor Hopper"
+        },
+        {
+            "mmsi": "256269000",
+            "name": "SAULUS",
+            "latitude": "35.822842",
+            "longitude": "14.540685",
+            "speed": "0",
+            "course": "76",
+            "heading": "224",
+            "typeSpecific": "Motor Hopper"
+        },
+        {
+            "mmsi": "642985000",
+            "name": "ALNOGOM ALMODIAA 1",
+            "latitude": "35.830692",
+            "longitude": "14.54944",
+            "speed": "0",
+            "course": "83",
+            "heading": "83",
+            "typeSpecific": "Fishing vessel"
+        },
+        {
+            "mmsi": "249320000",
+            "name": "ARMADALNGMEDITERRANA",
+            "latitude": "35.827782",
+            "longitude": "14.554029",
+            "speed": "0",
+            "course": "324",
+            "heading": "324",
+            "typeSpecific": "FSO"
+        },
+        {
+            "mmsi": "338397000",
+            "name": "POLARIS",
+            "latitude": "35.815132",
+            "longitude": "14.543359",
+            "speed": "0",
+            "course": "195",
+            "heading": "226",
+            "typeSpecific": "Offshore Tug/Supply Ship"
+        },
+        {
+            "mmsi": "636026215",
+            "name": "POLARIS",
+            "latitude": "35.815132",
+            "longitude": "14.543359",
+            "speed": "0",
+            "course": "195",
+            "heading": "226",
+            "typeSpecific": "Offshore Tug/Supply Ship"
+        },
+        {
+            "mmsi": "248076000",
+            "name": "ST ANGELO",
+            "latitude": "35.816166",
+            "longitude": "14.542118",
+            "speed": "0",
+            "course": "0",
+            "heading": "53",
+            "typeSpecific": "Tug"
+        },
+        {
+            "mmsi": "256824000",
+            "name": "CMA CGM TOSCA",
+            "latitude": "35.820999",
+            "longitude": "14.544085",
+            "speed": "0",
+            "course": "220",
+            "heading": "137",
+            "typeSpecific": "Container Ship"
+        },
+        {
+            "mmsi": "229000105",
+            "name": "MIURA S",
+            "latitude": "35.832375",
+            "longitude": "14.549421",
+            "speed": "0",
+            "course": "63",
+            "heading": null,
+            "typeSpecific": "Pleasure craft"
+        },
+        {
+            "mmsi": "642914000",
+            "name": "NASSEEP",
+            "latitude": "35.819054",
+            "longitude": "14.550447",
+            "speed": "75",
+            "course": "90",
+            "heading": "90",
+            "typeSpecific": "Fishing vessel"
+        },
+        {
+            "mmsi": "229000570",
+            "name": "JULIET 1",
+            "latitude": "35.819939",
+            "longitude": "14.53103",
+            "speed": "0",
+            "course": "0",
+            "heading": "185",
+            "typeSpecific": "Pilot"
+        },
+        {
+            "mmsi": "215184000",
+            "name": "VITTORIOSA",
+            "latitude": "35.816559",
+            "longitude": "14.543015",
+            "speed": "0",
+            "course": "148",
+            "heading": "245",
+            "typeSpecific": "Tug"
+        },
+        {
+            "mmsi": "636019212",
+            "name": "HISTRIA ATLAS",
+            "latitude": "35.828228",
+            "longitude": "14.550286",
+            "speed": "0",
+            "course": "244",
+            "heading": "196",
+            "typeSpecific": "Chemical/Oil Products Tanker"
+        },
+        {
+            "mmsi": "563157600",
+            "name": "ATLANTIC NORTH",
+            "latitude": "35.817974",
+            "longitude": "14.542407",
+            "speed": "0",
+            "course": "0",
+            "heading": "135",
+            "typeSpecific": "Container Ship"
+        },
+        {
+            "mmsi": "538005405",
+            "name": "STI ACTON",
+            "latitude": "35.816586",
+            "longitude": "14.545346",
+            "speed": "0",
+            "course": "305",
+            "heading": "45",
+            "typeSpecific": "Chemical/Oil Products Tanker"
+        },
+        {
+            "mmsi": "368289480",
+            "name": "OKALIPTUS",
+            "latitude": "35.829479",
+            "longitude": "14.537672",
+            "speed": "0",
+            "course": "0",
+            "heading": "0",
+            "typeSpecific": "Pleasure craft"
+        },
+        {
+            "mmsi": "642122082",
+            "name": "NASSEEP",
+            "latitude": "35.818481",
+            "longitude": "14.548456",
+            "speed": "80",
+            "course": "49",
+            "heading": "49",
+            "typeSpecific": "Fishing vessel"
+        },
+        {
+            "mmsi": "256003080",
+            "name": "DUNJA III",
+            "latitude": "35.830421",
+            "longitude": "14.535862",
+            "speed": "0",
+            "course": "8",
+            "heading": "103",
+            "typeSpecific": "Pleasure craft"
+        },
+        {
+            "mmsi": "249155000",
+            "name": "MED ALDEBARAN",
+            "latitude": "35.816711",
+            "longitude": "14.543384",
+            "speed": "1",
+            "course": "231",
+            "heading": "61",
+            "typeSpecific": "Tug"
+        },
+        {
+            "mmsi": "249157000",
+            "name": "CMA CGM ALTAMIRA",
+            "latitude": "35.820358",
+            "longitude": "14.535797",
+            "speed": "0",
+            "course": "211",
+            "heading": "130",
+            "typeSpecific": "Container Ship"
+        },
+        {
+            "mmsi": "249157000",
+            "name": "CMA CGM ALTAMIRA",
+            "latitude": "35.820358",
+            "longitude": "14.535797",
+            "speed": "0",
+            "course": "211",
+            "heading": "130",
+            "typeSpecific": "Container Ship"
+        },
+        {
+            "mmsi": "249000610",
+            "name": "ALFA 1",
+            "latitude": "35.819866",
+            "longitude": "14.530916",
+            "speed": "1",
+            "course": "185",
+            "heading": "185",
+            "typeSpecific": "Pilot"
+        },
+        {
+            "mmsi": "642122089",
+            "name": "LATHRON",
+            "latitude": "35.830502",
+            "longitude": "14.548705",
+            "speed": "0",
+            "course": null,
+            "heading": "0",
+            "typeSpecific": "Fishing Vessel"
+        }
+    ]
+}
